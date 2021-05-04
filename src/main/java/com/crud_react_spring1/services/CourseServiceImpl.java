@@ -39,4 +39,11 @@ public class CourseServiceImpl implements CourseService {
   return c;
  }
 
+ @Override
+ public Course addCourse(Course course) {
+  list.add(course);
+  // TODO Auto-generated method stub
+  return course;
+ }
+
 }
