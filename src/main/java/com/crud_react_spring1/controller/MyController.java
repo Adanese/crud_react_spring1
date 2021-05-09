@@ -58,6 +58,8 @@ public class MyController {
 	// this.courseService.removeCourse(Long.parseLong(courseId));
 	// }
 
+
+	
 	@DeleteMapping("/courses/{courseId}")
 	public ResponseEntity<HttpStatus> deleteCourse(@PathVariable String courseId) {
 
